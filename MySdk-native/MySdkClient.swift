@@ -63,7 +63,7 @@ public class MyClient: UIViewController {
     public override func loadView() {
         super.loadView()
         
-//        ReactNativeNavigation.bootstrap(with: self, launchOptions: nil)
+        ReactNativeNavigation.bootstrap(with: self, launchOptions: nil)
     }
     
 }
@@ -71,7 +71,8 @@ public class MyClient: UIViewController {
 extension MyClient: RCTBridgeDelegate {
     
     public func sourceURL(for bridge: RCTBridge!) -> URL! {
-        RCTBundleURLProvider.sharedSettings().jsBundleURL(forBundleRoot: "index", fallbackResource: nil)
+//        RCTBundleURLProvider.sharedSettings().jsBundleURL(forBundleRoot: "index", fallbackResource: nil)
+        Bundle.main.url(forResource: "index", withExtension: "jsbundle")
     }
     
     public func extraModules(for bridge: RCTBridge!) -> [RCTBridgeModule]! {
