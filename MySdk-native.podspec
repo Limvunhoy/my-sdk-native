@@ -55,7 +55,7 @@ Pod::Spec.new do |s|
   s.dependency 'lottie-react-native'
   s.dependency 'react-native-contacts'
   s.dependency 'react-native-geolocation-service'
-#   s.dependency 'react-native-maps'
+  s.dependency 'react-native-maps'
   s.dependency 'react-native-notifications'
   s.dependency 'react-native-splash-screen'
   s.dependency 'react-native-webview'
