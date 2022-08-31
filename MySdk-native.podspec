@@ -89,7 +89,7 @@ Pod::Spec.new do |s|
   s.dependency 'Permission-Contacts'
   s.dependency 'RNPermissions'
   s.dependency 'RNI18n'
-  s.dependency 'react-native-google-maps'
+#   s.dependency 'react-native-google-maps'
   # s.dependency 'Google-Maps-iOS-Utils'
   
 
